@@ -8,7 +8,7 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] })
   ],
-  base: '/esperanza-jewelry/',
+  base: '/',
   server: {
     host: '0.0.0.0',
     allowedHosts: true,
